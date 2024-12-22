@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 993e3d8897c2d324db448eac15debed0, type: 3}
+  m_Name: Animals
+  m_EditorClassIdentifier: 
+  animalAbilityDisplay:
+  - {fileID: 21300000, guid: f41778c9a9b231b48ba4b4e9ac4cd5bc, type: 3}
+  - {fileID: 21300000, guid: 8e0275bd9794e7445a1fa4242d0e1947, type: 3}
+  animalFoodDisplay:
+  - {fileID: 21300000, guid: 57d6cbdc00614c848bda8e16b24ed670, type: 3}
+  - {fileID: 21300000, guid: adbb7d159462bb74592f61d7012783f6, type: 3}
+  animalGroupDisplay:
+  - {fileID: 21300000, guid: 1282c0d39dedfbd408bf53e7d8b23ce0, type: 3}
+  - {fileID: 21300000, guid: fa6992f739e6343459e282e04263b8d2, type: 3}
+  animalBirthDisplay:
+  - {fileID: 21300000, guid: a7815f8b27933f84f96eef9577511ab2, type: 3}
+  - {fileID: 21300000, guid: ebd8a8d713ebb9343b3cbb4a70fb2bae, type: 3}
+  animalInsectDisplay:
+  - {fileID: 21300000, guid: 06da719af4ecaad459a9aeb2ac06fdea, type: 3}
+  - {fileID: 21300000, guid: a4be62ba07c127040aa011947f029d72, type: 3}
+  allAnimalsData:
+  - animalName: Ant
+    objToSpawn: {fileID: 1005624222163010370, guid: afe1c625c5f77a8468c203085ab4a48f, type: 3}
+    animalDisplay: {fileID: 21300000, guid: da032b932708f2443a58b9db2f8e0a72, type: 3}
+    animalDetail: Ants form colonies that range in size from a few dozen predatory
+      individuals living in small natural cavities to highly organised colonies that
+      may occupy large territories and consist of millions of individuals.
+    animalAbility: 1
+    animalFoodType: 1
+    animalGroupType: 0
+    animalBirthType: 1
+    animalInsectType: 0
+  - animalName: Bee
+    objToSpawn: {fileID: 1005624222163010370, guid: afe1c625c5f77a8468c203085ab4a48f, type: 3}
+    animalDisplay: {fileID: 21300000, guid: 64c33f22fc0be464fa805e7c1a150c3c, type: 3}
+    animalDetail: Bees are flying insects closely related to wasps and ants, known
+      for their role in pollination and, in the case of the best-known bee species,
+      the western honey bee, for producing honey. They live in colonies and can sting.
+    animalAbility: 0
+    animalFoodType: 0
+    animalGroupType: 0
+    animalBirthType: 1
+    animalInsectType: 0
+  - animalName: Bat
+    objToSpawn: {fileID: 1005624222163010370, guid: afe1c625c5f77a8468c203085ab4a48f, type: 3}
+    animalDisplay: {fileID: 21300000, guid: 8651ba16e00425945b72be4ac518fe2f, type: 3}
+    animalDetail: Bats are mammals of the order Chiroptera. With their forelimbs
+      adapted as wings, they are the only mammals capable of true and sustained flight.
+      They are nocturnal animals.
+    animalAbility: 0
+    animalFoodType: 1
+    animalGroupType: 0
+    animalBirthType: 0
+    animalInsectType: 1
+  - animalName: Bear
+    objToSpawn: {fileID: 1005624222163010370, guid: afe1c625c5f77a8468c203085ab4a48f, type: 3}
+    animalDisplay: {fileID: 21300000, guid: f81cbb21e5e37bd459b13a0129763c75, type: 3}
+    animalDetail: Bears are carnivoran mammals of the family Ursidae. They are classified
+      as caniforms or doglike carnivorans. Although only eight species of bears are
+      extant, they are widespread, appearing in a wide variety of habitats throughout
+      the Northern Hemisphere and partially in the Southern Hemisphere.
+    animalAbility: 1
+    animalFoodType: 1
+    animalGroupType: 1
+    animalBirthType: 0
+    animalInsectType: 1
+  - animalName: Sparrow
+    objToSpawn: {fileID: 1005624222163010370, guid: afe1c625c5f77a8468c203085ab4a48f, type: 3}
+    animalDisplay: {fileID: 21300000, guid: 6e98fe5845fd0ab4fa828b4a609841c9, type: 3}
+    animalDetail: Sparrows are a family of small passerine birds. They are also known
+      as true sparrows, or Old World sparrows, names also used for a particular genus
+      of the family, Passer.
+    animalAbility: 0
+    animalFoodType: 1
+    animalGroupType: 1
+    animalBirthType: 1
+    animalInsectType: 1
+  - animalName: Beetles
+    objToSpawn: {fileID: 1005624222163010370, guid: afe1c625c5f77a8468c203085ab4a48f, type: 3}
+    animalDisplay: {fileID: 21300000, guid: ce96449102d3d744abfff42873643b2d, type: 3}
+    animalDetail: "Beetles are a group of insects that form the order Coleoptera.
+      The word \"coleoptera\" is from the Greek \u03BA\u03BF\u03BB\u03B5\u03CC\u03C2,
+      koleos meaning \"sheath\"; and \u03C0\u03C4\u03B5\u03C1\u03CC\u03BD, pteron
+      meaning \"wing\", thus \"sheathed wing\", because most beetles have two pairs
+      of wings, the front pair, the elytra, being hardened and thickened into a shell-like
+      protection for the rear pair and the beetle's abdomen."
+    animalAbility: 0
+    animalFoodType: 1
+    animalGroupType: 1
+    animalBirthType: 1
+    animalInsectType: 0
+  - animalName: 'Butterfly '
+    objToSpawn: {fileID: 1005624222163010370, guid: afe1c625c5f77a8468c203085ab4a48f, type: 3}
+    animalDisplay: {fileID: 21300000, guid: cf9f080e61374c343a21890a4b4f1dca, type: 3}
+    animalDetail: Butterflies are insects in the macrolepidopteran clade Rhopalocera
+      from the order Lepidoptera, which also includes moths. Adult butterflies have
+      large, often brightly coloured wings, and conspicuous, fluttering flight.
+    animalAbility: 0
+    animalFoodType: 1
+    animalGroupType: 1
+    animalBirthType: 1
+    animalInsectType: 0
+  - animalName: Cat
+    objToSpawn: {fileID: 1005624222163010370, guid: afe1c625c5f77a8468c203085ab4a48f, type: 3}
+    animalDisplay: {fileID: 21300000, guid: b2fbe53fafc9c7e4ea65a3828ca59414, type: 3}
+    animalDetail: The domestic cat is a member of the Felidae family and is one of
+      the most popular pets in the world. Domestic cats are often called house cats
+      when kept as indoor pets.
+    animalAbility: 1
+    animalFoodType: 1
+    animalGroupType: 1
+    animalBirthType: 0
+    animalInsectType: 1
+  - animalName: 'Chicken '
+    objToSpawn: {fileID: 1005624222163010370, guid: afe1c625c5f77a8468c203085ab4a48f, type: 3}
+    animalDisplay: {fileID: 21300000, guid: d96c85410d7f9304eaf15425bc3837e6, type: 3}
+    animalDetail: The chicken is a type of domesticated fowl, a subspecies of the
+      red junglefowl. It is one of the most common and widespread domestic animals.
+    animalAbility: 1
+    animalFoodType: 1
+    animalGroupType: 0
+    animalBirthType: 1
+    animalInsectType: 1
+  - animalName: Clown Fish
+    objToSpawn: {fileID: 1005624222163010370, guid: afe1c625c5f77a8468c203085ab4a48f, type: 3}
+    animalDisplay: {fileID: 21300000, guid: db39496a696d64c429565f1c867d499e, type: 3}
+    animalDetail: 'Clownfish or anemonefish are fishes from the subfamily Amphiprioninae
+      in the family Pomacentridae. Thirty species are recognized: one in the genus
+      Premnas, while the remaining are in the genus Amphiprion.'
+    animalAbility: 1
+    animalFoodType: 1
+    animalGroupType: 0
+    animalBirthType: 1
+    animalInsectType: 1
+  - animalName: 'Dog '
+    objToSpawn: {fileID: 1005624222163010370, guid: afe1c625c5f77a8468c203085ab4a48f, type: 3}
+    animalDisplay: {fileID: 21300000, guid: c1d3ad06ded12c0438715ad1eac5b6a3, type: 3}
+    animalDetail: The domestic dog is a domesticated descendant of wolves. The dog
+      descended from an ancient wolf ancestor that lived with humans over 15,000
+      years ago.
+    animalAbility: 1
+    animalFoodType: 1
+    animalGroupType: 1
+    animalBirthType: 0
+    animalInsectType: 1
+  - animalName: 'Cow '
+    objToSpawn: {fileID: 1005624222163010370, guid: afe1c625c5f77a8468c203085ab4a48f, type: 3}
+    animalDisplay: {fileID: 21300000, guid: 38d8cf6129f7b9c4a88327c0e05d7d35, type: 3}
+    animalDetail: "Cattle\u2014colloquially cows\u2014are domesticated mammals that
+      constitute the genus Bos, and they are most commonly classified collectively
+      as Bos taurus."
+    animalAbility: 1
+    animalFoodType: 0
+    animalGroupType: 0
+    animalBirthType: 0
+    animalInsectType: 1
+  - animalName: 'Deer '
+    objToSpawn: {fileID: 1005624222163010370, guid: afe1c625c5f77a8468c203085ab4a48f, type: 3}
+    animalDisplay: {fileID: 21300000, guid: 76c60b8443a7a614aa7e0ffa8cd72f40, type: 3}
+    animalDetail: Deer (singular and plural) are hoofed ruminant mammals forming
+      the family Cervidae. The two main groups of deer are the Cervinae, including
+      muntjac, elk (wapiti), fallow deer and chital, and the Capreolinae, including
+      reindeer (caribou), roe deer and moose.
+    animalAbility: 1
+    animalFoodType: 0
+    animalGroupType: 0
+    animalBirthType: 0
+    animalInsectType: 1
+  - animalName: 'Dragonfly '
+    objToSpawn: {fileID: 1005624222163010370, guid: afe1c625c5f77a8468c203085ab4a48f, type: 3}
+    animalDisplay: {fileID: 21300000, guid: ba2ed51ff5aaa9b42aab8facdeb64232, type: 3}
+    animalDetail: A dragonfly is an insect belonging to the order Odonata, infraorder
+      Anisoptera. Adult dragonflies are characterized by large multifaceted eyes,
+      two pairs of strong transparent wings, sometimes with coloured patches, and
+      an elongated body.
+    animalAbility: 0
+    animalFoodType: 1
+    animalGroupType: 1
+    animalBirthType: 1
+    animalInsectType: 0
+  - animalName: 'Duck '
+    objToSpawn: {fileID: 1005624222163010370, guid: afe1c625c5f77a8468c203085ab4a48f, type: 3}
+    animalDisplay: {fileID: 21300000, guid: 5d7249bd5e645af46bbce9a58516c6a6, type: 3}
+    animalDetail: ' Duck is a common name for numerous species in waterfowl family
+      Anatidae which also includes swans and geese.'
+    animalAbility: 0
+    animalFoodType: 0
+    animalGroupType: 0
+    animalBirthType: 1
+    animalInsectType: 1
+  - animalName: 'Falcon '
+    objToSpawn: {fileID: 1005624222163010370, guid: afe1c625c5f77a8468c203085ab4a48f, type: 3}
+    animalDisplay: {fileID: 21300000, guid: 7c013d1a0710b604d937f9f74b5fea10, type: 3}
+    animalDetail: Falcons are birds of prey in the genus Falco which includes about
+      40 species. Falcons are widely distributed on all continents except Antarctica.
+    animalAbility: 0
+    animalFoodType: 1
+    animalGroupType: 1
+    animalBirthType: 1
+    animalInsectType: 1
+  - animalName: 'Fly '
+    objToSpawn: {fileID: 1005624222163010370, guid: afe1c625c5f77a8468c203085ab4a48f, type: 3}
+    animalDisplay: {fileID: 21300000, guid: cf2bc2adeaf5ff4458b1fb984df3396e, type: 3}
+    animalDetail: True flies are insects of Diptera order which includes house flies,
+      mosquitoes etc., characterized by having a single pair of wings on their mesothorax
+      and halteres on their metathorax used for balance.
+    animalAbility: 0
+    animalFoodType: 1
+    animalGroupType: 0
+    animalBirthType: 1
+    animalInsectType: 0
+  - animalName: 'Grasshopper '
+    objToSpawn: {fileID: 1005624222163010370, guid: afe1c625c5f77a8468c203085ab4a48f, type: 3}
+    animalDisplay: {fileID: 21300000, guid: 2a581c41b64db5b4db2daa943757b8eb, type: 3}
+    animalDetail: Grasshoppers are insects belonging to suborder Caelifera within
+      order Orthoptera,that can jump long distances.
+    animalAbility: 1
+    animalFoodType: 1
+    animalGroupType: 1
+    animalBirthType: 1
+    animalInsectType: 0
